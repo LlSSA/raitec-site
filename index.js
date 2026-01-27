@@ -16,12 +16,13 @@ app.get("/", (req, res) => {
 
 // Rota que o front vai usar
 app.get("/api", (req, res) => {
-  res.json({ mensagem: "Site do Raitec em Breve!!!" });
+  res.json({ mensagem: "Site do RAITec em Breve!!!" });
 });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Servidor rodando na porta", PORT);
 });
+
 
 
