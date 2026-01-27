@@ -11,7 +11,7 @@ app.use((req, res, next) => {
 
 // Rota principal
 app.get("/", (req, res) => {
-  res.send("Backend dos robôs está rodando!");
+  res.send("Backend do RAITec está rodando!");
 });
 
 // Rota que o front vai usar
@@ -23,6 +23,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log("Servidor rodando na porta", PORT);
 });
+
 
 
 
